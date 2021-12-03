@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*基本設定*/
+body, td, th {
+	font-size: 12px;
+	line-height:1.8em;
+	font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+}
+body {
+    background-color: #e0d0b6;
+    background-image: url(../images/HAIKEI.gif);	
+	
+}
+
+
+/*全体の枠*/
+#wrapper {
+    margin: 0 auto;
+    width: 1100px;
+    height: 1250px;
+    position: relative;
+    text-align: center;
+}
+
+/*ヘッダ*/
+#menu{
+    position: absolute;
+    top: 20px;
+}
+
+
+#menu h1{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+#menu h2{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 350px;
+	padding-top:16px;
+}
+#menu h3{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 600px;
+	
+}
+#menu h4{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 850px;
+	top: 12px;
+}
+
+
+
+#logo{
+	width: 300px;
+	padding-left: 400px;
+	position: absolute;
+    top: 200px;
+
+}
+
+ /*２０２０年*/
+
+
+#year{
+	padding-top: 334px;
+	text-align: left;
+}
+
+
+#year h8{
+    padding-left: 124px;	
+	
+}
+
+/*１月〜１２月*/
+#calender{
+ 	padding-top: 39px;
+	text-align: left;
+	position: relative
+	
+}
+#calender h9{
+    padding-left: 126px;    	
+	
+}
+#calender h10{
+padding-left: 56px;	
+	
+}
+#calender h11{
+	padding-left: 56px;
+}
+
+#calender h12{
+padding-left: 56px;
+}
+
+#calender h13{
+padding-left: 56px;
+}
+
+#calender h14{
+padding-left: 56px;
+}
+
+#calender h15{
+padding-left: 56px;
+}
+
+#calender h16{
+padding-left: 56px;
+}
+
+#calender h17{
+padding-left: 56px;
+}
+
+#calender h18{
+padding-left: 56px;
+}
+
+#calender h19{
+padding-left: 56px;
+}
+#calender h20{
+padding-left: 55px;
+}
+
+#calender_m{
+top:410px;
+left: 395px;	
+position: absolute
+
+}
+
+/*メニュー表*/
+
+
+#menutable{
+    padding-top: 54px;
+    text-align: left;
+    display: flex;
+   
+}
+
+
+#menutable h6{
+    padding-left: 124px;
+}
+
+#menutable h8{
+	padding-left: 49px;
+}
+
+#menutable h9{
+	padding-left: 49px;
+}
+
+#menutable_num{
+	padding-top: 14px;
+    text-align: left;
+    display: flex;
+	
+}
+
+#menutable_num h7{
+    padding-left: 122px;
+   
+    
+}
+
+#menutable_num h10{
+    padding-left: 55px;
+}
+
+#menutable_num h11{
+    padding-left: 119px;
+}
+
+
+/*メニュー下の段*/
+
+
+#menutable1{
+    padding-top: 71px;
+    text-align: left;
+    display: flex;
+}
+
+#menutable1 hi{
+	padding-left: 124px;
+}
+
+#menutable1_num{
+    padding-top: 14px;
+    text-align: left;
+    display: flex;
+    padding-bottom: 300px;
+}
+
+#menutable1_num h1{
+	 padding-left: 123px;
+   
+}
+
+
+/*フッタ*/
+#footer {
+	
+	height:40px;
+	font-size:9px;
+	color:#999999;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+}
+#copyright {
+	padding-left:10px;
+}

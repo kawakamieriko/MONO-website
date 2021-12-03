@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*基本設定*/
+body, td, th {
+	font-size: 12px;
+	line-height:1.8em;
+	font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+}
+body {
+	background-color: #e0d0b6;
+	
+}
+
+
+/*全体の枠*/
+#wrapper {
+    margin: 0 auto;
+    width: 1100px;
+    height: 800px;
+    position: relative;
+    text-align: center;
+}
+
+/*ヘッダ*/
+#menu{
+    position: absolute;
+    top: 20px;
+}
+
+#sliderWrapper{
+	margin: 0 auto;
+	height: 800px;
+}
+
+
+#menu h1{
+    position: absolute;
+    display: flex;
+    padding-left: 100px;
+	top: 7px;
+}
+#menu h2{
+    position: absolute;
+    display: flex;
+    padding-left: 350px;
+	top:11px;
+}
+#menu h3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 600px;
+	top: 1px;
+}
+#menu h4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 850px;
+	top: 10px;
+}
+
+
+
+#logo,#logo_under{
+	width: 300px;
+	top: 200px;
+	padding-left: 400px;
+	position: absolute;
+	display: block;
+}
+
+h6{
+	position: absolute;
+	top: 600px;
+	padding-left: 185px;
+}
+
+
+#logo_under{
+	display: none;
+}
+
+
+.open #logo_under{
+	display: block;
+	padding-left:0px;
+	top:0px;
+}
+
+.open #logo{
+	display: none;
+}
+
+
+/*フッタ*/
+#footer {
+	height:40px;
+	font-size:9px;
+	color:#999999;
+	display: flex;
+	align-content: flex-start;
+	justify-content: space-between;
+}
+#copyright {
+	padding-left:10px;
+}
